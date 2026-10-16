@@ -1,4 +1,4 @@
-<img width="418" height="832" alt="image" src="https://github.com/user-attachments/assets/9a734285-d155-484e-862d-2b0831f0f76f" />#Console
+#Console
 
 oct. 16, 2026 8:54:31 P.M. org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: hibernate-inheritance]
@@ -327,3 +327,4 @@ Process finished with exit code 0
 <img width="418" height="832" alt="image" src="https://github.com/user-attachments/assets/467de91b-83d6-4091-8604-945103eacf82" />
 <img width="577" height="838" alt="image" src="https://github.com/user-attachments/assets/f6f337f7-9735-4c55-ae9a-ae03b9273a36" />
 <img width="555" height="677" alt="image" src="https://github.com/user-attachments/assets/7d6a6dfb-44b9-475f-a7c2-09ac61c8960c" />
+<img width="418" height="832" alt="image" src="https://github.com/user-attachments/assets/9a734285-d155-484e-862d-2b0831f0f76f" />
