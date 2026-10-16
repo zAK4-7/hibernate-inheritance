@@ -1,0 +1,23 @@
+package com.example.model.singletable;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("MOTO")
+public class Moto extends Vehicule {
+
+    private boolean sidecar;
+
+    // Default ctor required by JPA
+    public Moto() {}
+
+    public Moto(String marque, boolean sidecar) {
+        super(marque);
+        this.sidecar = sidecar;
+    }
+
+    // getters & setters
+    public boolean isSidecar() { return sidecar; }
+    public void setSidecar(boolean sidecar) { this.sidecar = sidecar; }
+}

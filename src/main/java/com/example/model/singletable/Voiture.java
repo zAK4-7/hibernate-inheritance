@@ -1,0 +1,23 @@
+package com.example.model.singletable;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("VOITURE")
+public class Voiture extends Vehicule {
+
+    private int nombrePortes;
+
+    // Default ctor required by JPA
+    public Voiture() {}
+
+    public Voiture(String marque, int nombrePortes) {
+        super(marque);
+        this.nombrePortes = nombrePortes;
+    }
+
+    // getters & setters
+    public int getNombrePortes() { return nombrePortes; }
+    public void setNombrePortes(int nombrePortes) { this.nombrePortes = nombrePortes; }
+}
