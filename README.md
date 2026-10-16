@@ -1,4 +1,4 @@
-#Console
+# Console
 
 oct. 16, 2026 8:54:31 P.M. org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: hibernate-inheritance]
@@ -316,7 +316,7 @@ INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:mem:testdb;DB_CLOSE_DELA
 
 Process finished with exit code 0
 
-#Screenshots
+# Screenshots
 <img width="816" height="797" alt="image" src="https://github.com/user-attachments/assets/8f359272-3a3d-4367-a97c-b480980a780e" />
 <img width="537" height="743" alt="image" src="https://github.com/user-attachments/assets/bfeb3811-b5ac-487e-8100-5362775e1724" />
 <img width="651" height="800" alt="image" src="https://github.com/user-attachments/assets/3b99c48c-f428-4ac3-9baa-a663f99f6d4c" />
